@@ -6,11 +6,11 @@
 
 body {
   margin: 0;
-  background: linear-gradient(
-    to right,
-    rgb(9, 9, 119),
-    rgba(134, 9, 236, 0.877)
-  );
+  background: url("https://www.uincs.com/uploads/wallpapers/aesthetic_black_wallpaper_1660744217.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .calculator-grid {
