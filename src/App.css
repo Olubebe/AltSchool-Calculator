@@ -30,6 +30,7 @@ body {
   border: 1px solid white;
   outline: none;
   background: rgba(166, 167, 218, 0.185);
+  backdrop-filter: blur(10px);
 }
 
 .calculator-grid > button:hover,
@@ -40,6 +41,7 @@ body {
 .output {
   grid-column: 1 / -1;
   background-color: rgba(65, 53, 53, 0.507);
+  backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
